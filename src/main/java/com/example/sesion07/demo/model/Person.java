@@ -9,14 +9,14 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Person implements Serializable{
+public class Person implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	
+
 	private Long idPerson;
 
-    private String firstName;
+	private String firstName;
 
-    private String lastName;
-    
+	private String lastName;
+
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+		"-//Checkstyle//DTD SuppressionFilter Configuration 1.2//EN"
+		"https://checkstyle.org/dtds/suppressions_1_2.dtd">
+<suppressions>
+	<suppress files="[\\/]target[\\/]" checks=".*" />
+	<suppress files="." checks="[\\/]test[\\/]" />	
+		<suppress files=".*sample.*" checks="(Javadoc*|HideUtility*)"/>
+	<suppress files=".*Application.*" checks="(Javadoc*|HideUtility*)"/>
+	<suppress files=".*integration-tests.*" checks="(Javadoc*|HideUtility*)"/>
+	<suppress files="(.*Tests\.java|.*Tests\.groovy)" checks="Javadoc*"/>
+	<suppress files=".*src.test.java.*" checks="Javadoc*"/>
+	<suppress files="generated-sources" checks="[a-zA-Z0-9]*"/>
+	<suppress files=".*target.*" checks="[a-zA-Z0-9]*"/>
+	<suppress files=".*build.*" checks="[a-zA-Z0-9]*"/>
+</suppressions>
